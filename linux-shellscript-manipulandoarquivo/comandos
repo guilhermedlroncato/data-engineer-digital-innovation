@@ -1,0 +1,14 @@
+# criar varios arauivos simultaneamente
+touch arq.txt arq1.txt arq2.txt
+
+# altera hora de acesso
+touch -a arq.txt
+
+# altera hora de modificacao
+touch -m arq.txt
+
+# altera hora de acesso sem criar um novo arquivo
+touch -c arq.txt
+
+# definir hora de um arquivo
+touch -t 202112081047.30 arq.txt
