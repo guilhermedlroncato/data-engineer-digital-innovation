@@ -1,0 +1,5 @@
+* comando para conectar uma instacia mongo
+    mongo --host 127.0.0.1:27017 -p dio -u dio
+
+* config acesso do mongo no docker via mongo-compass
+    mongodb://dio:dio@localhost:27017/?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false
